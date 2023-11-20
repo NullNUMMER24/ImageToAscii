@@ -1,4 +1,8 @@
 from ascii_magic import AsciiArt
+import os
 
-my_art = AsciiArt.from_image('images_input/test.jpg')
-my_art.to_terminal()
+directory = "images_input/"
+
+for file in os.listdir(directory):
+    my_art = AsciiArt.from_image("images_input/" + file)
+    my_art.to_terminal()
