@@ -1,6 +1,7 @@
 from ascii_magic import AsciiArt
 import os
 
+# Set the image directory
 directory = "images_input/"
 
 for file in os.listdir(directory):
