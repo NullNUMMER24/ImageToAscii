@@ -1,0 +1,13 @@
+**.jpg
+**.png
+**.jepg
+**.html
+/bin/
+/ascii-converter
+*.o
+*.j*g
+*.png
+*.html
+.claude
+test-wallpaper_files
+*.avif
